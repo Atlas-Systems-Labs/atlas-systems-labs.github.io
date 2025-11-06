@@ -109,6 +109,28 @@
       text-decoration: underline;
     }
 
+    /* View Demo button styling */
+    .demo-button {
+      display: inline-block;
+      background: rgba(120, 141, 255, 0.15);
+      color: #cdd1ff;
+      padding: 0.6rem 1.8rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      border: 1px solid rgba(120, 141, 255, 0.35);
+      text-decoration: none;
+      margin-bottom: 1.8rem;
+      transition: all 0.25s ease;
+    }
+
+    .demo-button:hover {
+      background: rgba(120, 141, 255, 0.25);
+      color: #fff;
+      transform: translateY(-2px);
+    }
+
     @media (max-width: 480px) {
       .card {
         margin: 1.2rem;
@@ -131,6 +153,9 @@
     <p class="subtitle">
       A lightweight, modular stability engine for adaptive systems.
     </p>
+
+    <!-- New View Demo button -->
+    <a href="/demo/" class="demo-button">View Demo</a>
 
     <div class="line"></div>
 
